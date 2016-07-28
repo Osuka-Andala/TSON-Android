@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         mywebView = (WebView)findViewById(R.id.webView);
-        WebSettings webSettings  mywebView.getSettings();
+        WebSettings webSettings = mywebView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        mywebView.loadUrl("http://thissideofnairobi.co.ke/");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
