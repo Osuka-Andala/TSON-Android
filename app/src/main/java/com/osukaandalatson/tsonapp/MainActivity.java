@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 public class MainActivity extends AppCompatActivity {
     private WebView mywebView;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings = mywebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         mywebView.loadUrl("http://thissideofnairobi.co.ke/");
+        mywebView.setWebViewClient(new WebViewClient());
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
