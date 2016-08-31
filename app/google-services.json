@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1067184192197",
+    "firebase_url": "https://helloworld-db1e8.firebaseio.com",
+    "project_id": "helloworld-db1e8",
+    "storage_bucket": "helloworld-db1e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067184192197:android:6f356d9fbd01244f",
+        "android_client_info": {
+          "package_name": "com.osukaandalason.tsonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067184192197-5rnkr6vl5ju7k3b7ldu5v6ace6es4tri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL-PeBIFVG03ibvqK1KTg_RunbvQcIaG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
