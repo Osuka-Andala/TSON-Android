@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1067184192197:android:6f356d9fbd01244f",
+        "mobilesdk_app_id": "1:1067184192197:android:0991171e22be1455",
         "android_client_info": {
-          "package_name": "com.osukaandalason.tsonapp"
+          "package_name": "com.osukaandalatson.tsonapp"
         }
       },
       "oauth_client": [
